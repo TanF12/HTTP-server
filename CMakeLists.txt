@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(MixedLangProject C CXX)
+project(httpserver C CXX)
 
 set(CMAKE_CXX_STANDARD 11)
 
