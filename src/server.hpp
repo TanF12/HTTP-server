@@ -1,7 +1,8 @@
 #ifndef SERVER_HPP
 #define SERVER_HPP
 
-class SimpleWebServer {
+class SimpleWebServer 
+{
 public:
     SimpleWebServer(int port);
     ~SimpleWebServer();
