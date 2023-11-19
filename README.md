@@ -1,2 +1,2 @@
 # HTTP-server
-Simples servidor HTTP escrito em C
+Simples servidor HTTP escrito em C++
