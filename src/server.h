@@ -1,6 +1,18 @@
-#ifndef SERVER_H
-#define SERVER_H
+#ifndef SERVER_HPP
+#define SERVER_HPP
 
-void start_server(int port);
+class SimpleWebServer {
+public:
+    SimpleWebServer(int port);
+    ~SimpleWebServer();
+
+    void start();
+
+private:
+    int server_socket;
+    int port;
+
+    void setupSocket();
+};
 
 #endif
